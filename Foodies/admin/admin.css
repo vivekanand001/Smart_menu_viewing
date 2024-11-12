@@ -1,0 +1,62 @@
+body {
+    background-color: #d38f8f; /* light gray background */
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333; /* dark gray text */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #756565; /* light gray border */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #9c8484; /* light gray background */
+    color: #333; /* dark gray text */
+  }
+  
+  td {
+    background-color: #fff; /* white background */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* light gray background for even rows */
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2; /* light gray background on hover */
+  }
+  
+  /* Advanced CSS styles */
+  
+  /* Add a shadow to the table */
+  table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add a gradient to the header */
+  th {
+    background-image: linear-gradient(to bottom, #2c2929, #e0e0e0);
+  }
+  
+  /* Add a rounded corner to the table */
+  table {
+    border-radius: 10px;
+  }
+  
+  /* Add a hover effect to the rows */
+  tr:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s ease-in-out;
+  }
